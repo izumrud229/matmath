@@ -8,7 +8,7 @@
 - **Vulkan & OpenGL support**: Dedicated projection functions (`m4_perspective_vk`, `m4_ortho_vk`) supporting Y-axis flipping (`flip_y`) and `[0, 1]` depth range.
 - **Zero external dependencies**: Relies strictly on the C standard library (`<math.h>`, `<stdalign.h>`).
 - **Weight**: 18KB header-only.
-- 
+
 ## What's Included
 - **Scalars**: `clampf`, `lerpf`, `radiansf`, `degreesf`.
 - **Vectors**: `vec2`, `vec3`, `vec4` (addition, subtraction, dot/cross products, normalization, linear interpolation).
