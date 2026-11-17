@@ -7,7 +7,7 @@
 - **GPU-ready memory alignment**: `vec4`, `m4`, and `quat` are 16-byte aligned (`_Alignas(16)`) for direct `memcpy` transfers into UBOs, SSBOs, and Push Constants.
 - **Vulkan & OpenGL support**: Dedicated projection functions (`m4_perspective_vk`, `m4_ortho_vk`) supporting Y-axis flipping (`flip_y`) and `[0, 1]` depth range.
 - **Zero external dependencies**: Relies strictly on the C standard library (`<math.h>`, `<stdalign.h>`).
-- **Weight**: ![size](https://img.shields.io/badge/size-18.7_KB-blue
+- **Weight**: ![size](https://img.shields.io/badge/size-18.7_KB-blue)
 
 ## What's Included
 - **Scalars**: `clampf`, `lerpf`, `radiansf`, `degreesf`.
