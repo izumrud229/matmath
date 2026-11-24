@@ -200,8 +200,8 @@ static inline void m4_ortho(m4 *out,
     out->m[0]  = 2.0f / (right - left);
     out->m[5]  = 2.0f / (top - bottom);
     out->m[10] = 2.0f / (near - far);
-    out->m[12] = (right + left) / (right - left);
-    out->m[13] = (top + bottom) / (top - bottom);
+    out->m[12] = -(right + left) / (right - left);
+    out->m[13] = -(top + bottom) / (top - bottom);
     out->m[14] = (near + far) / (near - far);
 }
 
